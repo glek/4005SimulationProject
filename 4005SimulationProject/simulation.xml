@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<Simulation>
+		<Replications value="20"/>
+		<Timeslots value="50000"/>
+		<NumberGenerator a="0.5" b="0.5"/>
+		<Scheduling value="Random"/>
+		<Servers count="1"/>
+		<Queue>
+			<ArrivalRate value="0.014"/>
+			<ConnectivityChance server="0" value="0.2"/>
+		</Queue>
+		<Queue>
+			<ArrivalRate value="0.028"/>
+			<ConnectivityChance server="0" value="0.2"/>
+		</Queue>
+		<Queue>
+			<ArrivalRate value="0.042"/>
+			<ConnectivityChance server="0" value="0.2"/>
+		</Queue>
+		<Queue>
+			<ArrivalRate value="0.056"/>
+			<ConnectivityChance server="0" value="0.2"/>
+		</Queue>
+		<Queue>
+			<ArrivalRate value="0.07"/>
+			<ConnectivityChance server="0" value="0.2"/>
+		</Queue>
+	</Simulation>
+	<Simulation>
+		<Replications value="20"/>
+		<Timeslots value="50000"/>
+		<NumberGenerator a="0.5" b="0.5"/>
+		<Scheduling value="RoundRobin"/>
+		<Servers count="1"/>
+		<Queue>
+			<ArrivalRate value="0.014"/>
+			<ConnectivityChance server="0" value="0.2"/>
+		</Queue>
+		<Queue>
+			<ArrivalRate value="0.028"/>
+			<ConnectivityChance server="0" value="0.2"/>
+		</Queue>
+		<Queue>
+			<ArrivalRate value="0.042"/>
+			<ConnectivityChance server="0" value="0.2"/>
+		</Queue>
+		<Queue>
+			<ArrivalRate value="0.056"/>
+			<ConnectivityChance server="0" value="0.2"/>
+		</Queue>
+		<Queue>
+			<ArrivalRate value="0.07"/>
+			<ConnectivityChance server="0" value="0.2"/>
+		</Queue>
+	</Simulation>
+	<Simulation>
+		<Replications value="20"/>
+		<Timeslots value="50000"/>
+		<NumberGenerator a="0.5" b="0.5"/>
+		<Scheduling value="LongestFirst"/>
+		<Servers count="1"/>
+		<Queue>
+			<ArrivalRate value="0.014"/>
+			<ConnectivityChance server="0" value="0.2"/>
+		</Queue>
+		<Queue>
+			<ArrivalRate value="0.028"/>
+			<ConnectivityChance server="0" value="0.2"/>
+		</Queue>
+		<Queue>
+			<ArrivalRate value="0.042"/>
+			<ConnectivityChance server="0" value="0.2"/>
+		</Queue>
+		<Queue>
+			<ArrivalRate value="0.056"/>
+			<ConnectivityChance server="0" value="0.2"/>
+		</Queue>
+		<Queue>
+			<ArrivalRate value="0.07"/>
+			<ConnectivityChance server="0" value="0.2"/>
+		</Queue>
+	</Simulation>
+</root>
